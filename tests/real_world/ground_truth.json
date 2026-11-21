@@ -1,0 +1,25 @@
+{
+  "note": "Ground truth hand-verified by reading the extracted text of each real PDF (IOCL NIT summary doc, CWC circular). Method: human reading of the document text, not the extractor output.",
+  "iocl_primetenders.pdf": {
+    "tender_id_contains": "PT-019",
+    "title_contains": "radar",
+    "organization_contains": "Indian Oil",
+    "emd_amount": 77427,
+    "tender_fee": 0,
+    "estimated_cost": 30970530,
+    "bid_validity_days": 180,
+    "min_avg_annual_turnover": 18583000,
+    "turnover_window_contains": "3 financial years",
+    "similar_options": [[3, 9292000], [2, 12389000], [1, 15486000]],
+    "similar_window_years": 7,
+    "submission_deadline": null,
+    "dates_as_per_portal": true,
+    "work_location_contains": "Jaipur"
+  },
+  "cwc_emd_circular.pdf": {
+    "note": "This is an EMD-fixation CIRCULAR, not a tender notice. Correct output for tender-specific fields is null.",
+    "emd_amount": null,
+    "min_avg_annual_turnover": null,
+    "tender_id": null
+  }
+}
